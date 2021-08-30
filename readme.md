@@ -2,7 +2,7 @@
 To get started you can run the app in development
 
 ```
-git clone https://github.com/abdallaemadeldin/CoinMENA
+git clone https://github.com/abdallaemadeldin/CoinMENA.git
 cd CoinMENA
 yarn
 cd ios && pod install && cd ..
@@ -49,3 +49,6 @@ CoinMENA
 - `hooks` All hooks should be in one folder, with no nesting! Each hook is refered to component or screen.
 - `lib`
 - `screens` A page is what simply what get passed to routes, each page folder should be same as a component folder.
+
+## Stack
+This app is built with react-native cli, react-navigation, react-native-chart-kit, react-query,react-native-svg, React-Testing-Library & Jest for testing.
