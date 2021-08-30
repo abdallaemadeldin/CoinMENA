@@ -1,7 +1,6 @@
 import React from 'react';
 import { Text, useWindowDimensions, View } from "react-native";
 import { PieChart } from "react-native-chart-kit";
-import randomColor from 'randomcolor';
 import { ICard } from './types';
 import { style } from './style';
 
